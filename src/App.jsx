@@ -3,11 +3,13 @@ import Hero from './components/Hero';
 import TokenGrid from './components/TokenGrid';
 import GovernanceSection from './components/GovernanceSection';
 import RoadmapSection from './components/RoadmapSection';
+import Manifesto from './components/Manifesto';
 
 function App() {
   return (
     <div className="min-h-screen w-full bg-black text-white">
       <Hero />
+      <Manifesto />
       <TokenGrid />
       <GovernanceSection />
       <RoadmapSection />
